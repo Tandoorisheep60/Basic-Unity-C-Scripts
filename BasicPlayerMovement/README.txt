@@ -7,3 +7,5 @@ STEP 3: Set Ground Check: Create an empty GameObject and position it slightly be
 STEP 4: Set Ground Layer: Create a new layer called "Ground" (or use any layer you want) and assign it to the ground objects. In the script, select that layer for the groundLayer field.
 
 STEP 5: Adjust Move Speed and Jump Force: You can modify the moveSpeed and jumpForce values in the Unity Inspector to tweak the movement behavior.
+
+NOTE THAT WHEN USING 2D YOU NEED TO CHANGE THE CODE FROM Rigidbody TO Rigidbody2D WHICH MAKES JUMP NOT WORK FOR SOME REASON
